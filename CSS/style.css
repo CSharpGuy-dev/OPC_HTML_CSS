@@ -1,3 +1,7 @@
+*
+{
+	margin: 32px;
+}
 
 /* Un peu de commentaire, ça fait pas de mal */
 .gros_titre
@@ -9,6 +13,11 @@
 .paragraphe_important
 {
 	color: blue;
+}
+
+.salutations
+{
+	color: red;
 }
 
 /* Attribut Id qui devrait unique (mais ça fonctionne quand même si t'en met plusieurs) */
