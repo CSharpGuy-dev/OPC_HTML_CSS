@@ -1,4 +1,23 @@
-p
+
+/* Un peu de commentaire, ça fait pas de mal */
+.gros_titre
+{
+	font-size: 64px;
+}
+
+
+.paragraphe_important
+{
+	color: blue;
+}
+
+/* Attribut Id qui devrait unique (mais ça fonctionne quand même si t'en met plusieurs) */
+#logo
+{
+	border: solid;
+}
+
+em
 {
 	color: blue;
 }
