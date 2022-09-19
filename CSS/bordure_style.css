@@ -1,0 +1,23 @@
+h1
+{
+	border: 4px red double;
+	border-radius: 20px / 10px; 
+	background-color: red;
+}
+
+h2
+{
+	border-right: 2px black solid;
+	border-left: 2px black solid;
+}
+
+h2 + p
+{
+	border: 2px black solid;
+	box-shadow: 6px 6px 6px black inset;
+}
+
+p + p
+{
+	text-shadow: 2px 2px 4px black;
+}
