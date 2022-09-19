@@ -95,3 +95,13 @@ strong
 {
 	text-align: left;
 }
+
+.image_flottante
+{
+	float: left;
+}
+
+.dessous
+{
+	clear: both;
+}
