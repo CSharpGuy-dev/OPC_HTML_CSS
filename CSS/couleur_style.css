@@ -1,0 +1,41 @@
+body
+{
+	color: white;
+	/*background-color: black;*/
+	background-image: url("../HTML/TEST/images/bloc_notes.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}/* Les arrières plans peuvent se cumuler et les propriétés se définir sur une ligne*/
+
+h1
+{
+	color: maroon;
+}
+
+.hex_color
+{
+	color: #FA3; /* Cela reste de l'hexadécimal mais sur 3 caractères pour exprimer la couleure #FFAA33*/ 
+}
+
+.rgb_color
+{
+	color: rgb(240,96,204);
+}
+
+mark
+{
+	background-color: red;
+	color: black;
+}
+
+.opacity
+{
+	opacity: 0.6;
+}
+
+.rgb_and_opacity
+{
+	background-color: rgb(255, 0, 0); /* Pour les navigateurs ne prenant pas en charge l'opacityé, toujours préciser la couleur de l'arrière plan sans l'opacité*/
+	background-color: rgba(255, 0, 0, 0.5);	/* En mettant la commande en dernière */
+}
