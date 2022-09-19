@@ -1,23 +1,47 @@
+@font-face
+{
+	font-family: 'MaPolicePreferee';
+	src: url('open-sans/OpenSans-Regular.ttf') format('truetype'), /* On propose plusieurs extensions de la police afin de s'adapter à tous les navigateurs */
+		 url('open-sans/OpenSans-Regular.eot') format('eot'); 
+}
+
 *
 {
-	margin: 32px;
+	font-size: 100%;
+	font-family: 'MaPolicePreferee', "Courier New", "Arial Black", "Comic Sans MS", serif;
 }
+
+/* Les polices généralement utilisées sont : 
+	- Arial;
+	- Arial Black;
+	- Comic Sans MS;
+	- Courier New; 
+	- Georgia;
+	- Impact;
+	- Times New Roman;
+	- Trebuchet MS;
+	- Verdan;
+ */
+ /* En général, on met 3/4 polices + serif ou sans-serif */
 
 /* Un peu de commentaire, ça fait pas de mal */
 .gros_titre
 {
-	font-size: 64px;
+	font-size: 300%;
+	font-style: oblique;
 }
 
 
 .paragraphe_important
 {
 	color: blue;
+	font-style: italic;
 }
 
 .salutations
 {
 	color: red;
+	font-weight: bold;
 }
 
 /* Attribut Id qui devrait unique (mais ça fonctionne quand même si t'en met plusieurs) */
@@ -28,5 +52,46 @@
 
 em
 {
+	font-style: normal;
 	color: blue;
+}
+
+strong
+{
+	font-weight: normal;
+}
+
+.souligne
+{
+	text-decoration: underline;
+}
+
+.barre
+{
+	text-decoration: line-through;
+}
+
+.ligne_dessus
+{
+	text-decoration: overline;
+}
+
+.centre
+{
+	text-align: center;	
+}
+
+.justifie
+{
+	text-align: justify;
+}
+
+.aligne_droite
+{
+	text-align: right;
+}
+
+.aligne_gauche
+{
+	text-align: left;
 }
