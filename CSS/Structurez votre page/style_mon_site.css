@@ -1,0 +1,32 @@
+header
+{
+	border: 2px red solid;
+}
+
+nav
+{
+	margin: 1px 0px 1px 0px;
+	border: 2px green solid;
+}
+
+footer
+{
+	margin-top: 1px;
+	border: 2px blue solid;	
+}
+
+header
+{
+	text-align: center;
+}
+
+footer p
+{
+	text-align: center;
+}
+
+section h1
+{
+	color: red;
+	font-style: italic;	
+}
