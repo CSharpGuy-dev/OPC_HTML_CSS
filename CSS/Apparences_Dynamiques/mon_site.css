@@ -1,0 +1,35 @@
+a /*Lien non survolé (par défaut) */
+{
+	font-style: italic;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+}
+
+.Survole:hover /* Lien survolé */
+{
+	text-decoration: underline;
+	color: green;
+}
+
+p:hover /* Survole d'un paragraphe */
+{
+	font-style: italic;
+	color: purple;
+}
+
+a:active
+{
+	background-color: #FFCC66;
+}
+
+a:focus
+{
+	background-color: red;
+}
+
+a:visited
+{
+	color: #AAA;
+}
+
