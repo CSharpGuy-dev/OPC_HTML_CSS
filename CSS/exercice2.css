@@ -1,0 +1,33 @@
+@font-face
+{
+	font-family: 'MaPolicePreferee';
+	src: url('open-sans/OpenSans-Regular.ttf') format('truetype'), /* On propose plusieurs extensions de la police afin de s'adapter à tous les navigateurs */
+		 url('open-sans/OpenSans-Regular.eot') format('eot'); 
+}
+
+body
+{
+	background-image: url("bg_ciel.jpg");
+	background-attachment: fixed;
+	font-family: 'MaPolicePreferee', "Courier New", "Arial Black", "Comic Sans MS", serif;
+}
+
+h1
+{
+	color: green;
+}
+
+h1, h2, p, ul, dl
+{
+	text-align: center;
+}
+
+dl
+{
+	border: 2px red solid
+}
+
+ul
+{
+	text-shadow: 2px 2px 4px black
+}
