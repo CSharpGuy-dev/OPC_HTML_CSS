@@ -1,0 +1,22 @@
+.citation
+{
+	border: 2px black solid;
+	width: 100px;
+	height: 50px;
+	text-align: justify;		
+	overflow: auto;
+	word-wrap: break-word;
+}
+
+#conteneur
+{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap-reverse;
+	justify-content: space-around;
+}
+
+.citation:nth-child(2)
+{
+	background-color: blue;
+}
