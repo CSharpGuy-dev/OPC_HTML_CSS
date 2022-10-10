@@ -9,13 +9,13 @@ nav
 	border: 2px green solid;
 	width: 33%;
 	max-width: 1000px;
-	min-width: 100;
-	
+	min-width: 100px;
+	height: 100%	
 }
 
 footer
-{
-	margin-top: 1px;
+{	
+	margin-top: 10px;
 	border: 2px blue solid;		
 }
 
@@ -33,11 +33,23 @@ section h1
 {
 	color: red;
 	font-style: italic;	
-	width: 500px;
+	width: 250px;
 	margin: auto;
 }
 
 aside
 {
 	text-align: center;
+}
+
+.citation
+{
+	border: 2px black solid;
+	width: 100px;
+	height: 50px;
+	text-align: justify;
+	padding: 12px;
+	margin: auto;
+	overflow: auto;
+	word-wrap: break-word;
 }
