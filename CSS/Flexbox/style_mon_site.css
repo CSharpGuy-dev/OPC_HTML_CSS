@@ -2,7 +2,7 @@
 {
 	border: 2px black solid;
 	width: 100px;
-	height: 50px;
+	height: 100px;
 	text-align: justify;		
 	overflow: auto;
 	word-wrap: break-word;
@@ -10,13 +10,19 @@
 
 #conteneur
 {
+	height: 400px;
 	display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: wrap-reverse;
-	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/*justify-content: space-around;*/
+	justify-content: center;
+	align-items: center;
 }
 
 .citation:nth-child(2)
 {
 	background-color: blue;
+	align-self: flex-end;
+	order:3;
+	flex: 2;
 }
