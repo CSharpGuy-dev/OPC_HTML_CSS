@@ -1,13 +1,17 @@
 nav
 {
-	float: left;
+	display: inline-block;
+	/*float: left;*/
 	width: 150px;
 	border: 1px solid black;
+	vertical-align: top;
 }
 
 section
 {
+	display: inline-block;
+	/*margin-left: 170px;*/
 	border: 1px solid blue;
-	margin-left: 170px;
+	vertical-align: top;	
 }
 
